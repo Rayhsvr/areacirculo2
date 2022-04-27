@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Círculo</title>
+    <script src="js/funciones.js"></script>
+</head>
+<body>
+   <header>
+       <h1>Calcular el Área de un Círculo</h1>
+   </header>
+   <nav> <!--Aquí va el menú --> </nav>
+   <section>
+       <!-- <form action="" method="get" name="formArea" id="formArea"> -->
+            <p><label for="radio">Proporcione el radio:</label>
+            <input type="number" name="radio" id="radio" required></p>
+            <p><label for="area">El área del círculo es =:</label>
+            <input type="text" name="area" id="area" disabled></p>
+            <p><input type="submit" value="Calcular" onclick="area();">     
+            <input type="button" value="Limpiar" name="limpiar" id="limpiar" onclick="limpiar();"></p>
+      <!--  </form> -->
+   </section>
+</body>
+</html>
